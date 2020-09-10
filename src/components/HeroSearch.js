@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import HeroInfoButton from "./HeroInfoButton";
 
 const HeroSearch = () => {
-  const [heroInput, setHeroInput] = useState("");
+  const [heroInput, setHeroInput] = useState("Abathur");
 
   return (
     <div>
